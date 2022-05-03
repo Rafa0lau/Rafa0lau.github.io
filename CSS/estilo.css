@@ -1,0 +1,207 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inconsolata', monospace;
+}
+
+:root{
+    --main-color: darkmagenta ;
+    --main-text-color: #FFF;
+    --border-color: #575757;
+    --bio-bg-color: #030404;
+    --bio-border-color: #080908;
+    --desc-bg-color: #131212;
+}
+
+#highlight{
+    color:darkmagenta
+}
+
+#container{
+    display: flex;
+    flex-direction: row;
+    color: var(--main-text-color)
+}
+
+#bio-container{
+    flex: 1 1 20%;
+    min-height: 100vh;
+    background-color: var(--bio-bg-color);
+    text-align: center;
+    padding: 30px 12px;
+    border-right: 5px solid var(--bio-border-color);
+
+}
+
+#bio-container h2{
+    margin-bottom: 30px;
+}
+
+#bio-container p{
+    margin-bottom: 20px;
+}
+
+#bio-container img{
+    width: 180px;
+    height: 180px;
+    margin-bottom: 30px;
+    border-radius: 50%;
+}
+
+#MidiasSociais{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    border-bottom: 1px solid var(--border-color);
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+    
+}
+
+#MidiasSociais ion-icon:hover,
+#email ion-icon:hover{
+    color: chartreuse;
+}
+
+#MidiasSociais li{
+    flex: 1 1 0;
+    max-width: 100px;
+}
+
+#MidiasSociais a{
+    color: var(--main-text-color);
+    font-size: 19px;
+    text-decoration: none;
+
+}
+
+#MidiasSociais ion-icon{
+    color: var(--main-color);
+    font-size: 30px;
+    transition: 0.5s;
+
+}
+
+#email{
+    display: flex;
+    justify-content: center;
+    font-size: 19px;
+    transition: 0.5s;
+}
+
+#email ion-icon{
+    flex: 1 1 0;
+    color: var(--main-color);
+    font-size: 30px;
+}
+
+#email a{
+    color: var(--main-text-color);
+    text-decoration: none;
+    font-size: 19px;
+}
+
+#desc-container{
+    flex: 1 1 80%;
+    height: 100%;
+    background-color: var(--desc-bg-color);
+    text-align: center;
+    padding: 50px;
+}
+
+#desc-container p{
+    margin-bottom: 30px;
+}
+
+#name{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+#titulo{
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#Videos-section-title{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    text-align: justify;
+}
+
+.description {
+    max-width: 85%;
+    text-align: justify;
+
+}
+
+.description-vid,
+.description-aud {
+    max-width: 85%;
+    text-align: justify;
+    color: gray;
+    font-weight: lighter;
+
+}
+
+#btn-projects{
+    font-weight: bold;
+    font-size: 16px;
+    color: var(--main-text-clor);
+    background-color: var(--main-color);
+    border: 5px solid var(--main-color);
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.5s;
+    padding: 16px 10px;
+    width: 150px;
+    text-align: center;
+    margin-top: 60px;
+    
+}
+#btn-projects ion-icon,
+#btn-projects span {
+    flex: 1 1 0;
+
+}
+
+#btn-projects ion-icon{
+    font-size: 30px;
+    max-width: 30px;
+    margin-right: 5px;
+}
+
+#btn-projects:hover{
+    background-color: chartreuse;
+}
+
+
+.vid-box video{
+    width: 530px;
+    height: 320px;
+}
+.vid-box h3{
+    bottom: 30px;
+}
+
+.aud-box audio{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#Videos-section-title{
+    border-top: 1px solid var(--border-color);
+}
+
+#Audio-section-title{
+    border-top: 1px solid var(--border-color);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
