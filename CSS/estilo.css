@@ -137,6 +137,7 @@
 .description {
     max-width: 85%;
     text-align: justify;
+    padding-top: 20px;
 
 }
 
@@ -196,12 +197,12 @@
 
 #Videos-section-title{
     border-top: 1px solid var(--border-color);
+    padding-top: 20px;
 }
 
 #Audio-section-title{
     border-top: 1px solid var(--border-color);
-    margin-top: 30px;
-    margin-bottom: 30px;
+    padding-top: 20px;
     text-align: justify;
 }
 
@@ -215,4 +216,5 @@
 #Cursos-section-title{
     border-top: 1px solid var(--border-color);
     text-align: justify;
+    padding-top: 20px;
 }
